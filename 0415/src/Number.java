@@ -1,14 +1,14 @@
 import java.util.Scanner; 
 
 /* 
- * 1~100»çÀÌÀÇ °ª  
- * ¼ıÀÚ¸ÂÃß±â°ÔÀÓ 
+ * 1~100ì‚¬ì´ì˜ ê°’  
+ * ìˆ«ìë§ì¶”ê¸°ê²Œì„ 
  */ 
 public class Number { 
     public static void main(String[] args) {
         // TODO Auto-generated method stub 
-       System.out.print("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª¸¦ ¸ÂÃçº¸¼¼¿ä(1~50±îÁö):");
-       Scanner sc=new Scanner(System.in);
+       System.out.print("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶°ë³´ì„¸ìš”(1~50ê¹Œì§€):");
+       Scanner sc=new Scanner(System.in); //ìŠ¤ìºë„ˆ
        int num=sc.nextInt();
        int []arr=new int[10];
        int diff=0;
@@ -20,11 +20,11 @@ public class Number {
        
        for(int i=0; i<10; i++) {
     	   if(arr[i] == num) {
-    		   System.out.println("´çÃ·! ÀÏÄ¡ÇÏ´Â ¼ıÀÚ°¡ ÀÖ½À´Ï´Ù.");
+    		   System.out.println("ë‹¹ì²¨! ì¼ì¹˜í•˜ëŠ” ìˆ«ìê°€ ìˆìŠµë‹ˆë‹¤.");
     		   diff = 1;
     	   }
        }
-       if(diff==0) System.out.println("²Î~ ´ÙÀ½ ±âÈ¸¿¡~");
+       if(diff==0) System.out.println("ê½~ ë‹¤ìŒ ê¸°íšŒì—~"); 
     	   
        }
 
